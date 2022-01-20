@@ -4,7 +4,7 @@ A handwritten recognizer for Chinese numerals implementation on Basys 3 Artix-7 
 
 ![](img/demo.gif)
 
-![](img/block-diagram.png)
+![](img/block-diagram.jpg)
 
 ## Report & Explanation
 

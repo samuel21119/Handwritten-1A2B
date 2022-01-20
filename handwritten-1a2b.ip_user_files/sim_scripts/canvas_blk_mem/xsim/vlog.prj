@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../handwritten-1a2b.gen/sources_1/ip/canvas_blk_mem/sim/canvas_blk_mem.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

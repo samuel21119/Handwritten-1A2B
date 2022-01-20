@@ -1,0 +1,6 @@
+wire mouseHover = (MOUSE_X >= originX && MOUSE_X < (originX + width)) && (MOUSE_Y >= originY && MOUSE_Y < (originY + height));
+wire isBorder = (0 <= clientX && clientX <= (borderWidth)) ||
+                ((width - borderWidth) <= clientX && clientX <= (width)) ||
+                (0 <= clientY && clientY <= (borderWidth)) ||
+                ((height - borderWidth) <= clientY && clientY <= (height));
+assign valid = (h_cnt >= originX && h_cnt < (originX + width)) && (v_cnt >= originY && v_cnt < (originY + height));
